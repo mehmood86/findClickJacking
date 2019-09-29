@@ -1,0 +1,13 @@
+No.	  |Vuln		|URL
+
+1    	|Yes		|https://www.guru99.com/reading-and-writing-files-in-python.html
+2    	|No  		|https://www.linkedin.com/learning/ethical-hacking-exploits/disclaimer
+3    	|Yes		|https://openstackid.org/accounts/user/login
+4    	|Yes		|https://www.noodlecampus.com/
+5    	|Yes		|https://fair-ipk.ipk-gatersleben.de/
+6    	|No  		|https://www.owasp.org/
+7    	|Yes		|https://docs.python.org/3/howto/urllib2.html
+8    	|No  		|https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
+9    	|No  		|https://www.salzlandsparkasse.de/de/home.html
+10    	|No  		|https://www.shopify.com/
+11    	|Yes		|https://login.bigcommerce.com/login?
