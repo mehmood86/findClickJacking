@@ -27,3 +27,6 @@ def main():
 
 if __name__=="__main__":
     main()
+
+n = 123
+print ('asa%s'%n+1)

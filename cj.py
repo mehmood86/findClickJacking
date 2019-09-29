@@ -6,9 +6,9 @@ def main():
     fout = open("output.txt", "w+")
 
     f1 = fin.readlines()
-    fout.write('No.\t  |Vuln\t\t|URL\n\n' )
+    fout.write('No.\t\t' + 'Vuln\t\t' + 'URL\n\n' )
     count = 0
-    for i, url in enumerate(f1):
+    for i, url in enumerate(f1, 1):
         global vulnerable
 
         req = urllib.request.Request(
@@ -22,13 +22,13 @@ def main():
         # print(f.info())
         if "X-Frame-Options" in f.info():
             # print("Not Vulnerable to Clickjacking")
-            vulnerable = 'No  '
+            vulnerable = 'NO '
         else:
             # print("Vulnerable to Clickjacking")
-            vulnerable = 'Yes'
+            vulnerable = 'YES'
             count += 1
-        print("Processing website " + str(i+1) + "...")
-        fout.write(str(i+1) + '    \t|' + vulnerable + '\t\t|' + url)
+        print("Processing website " + '%s'%i + "...")
+        fout.write('%s\t\t'%i + ('\t%s\t\t')%vulnerable + '\t' + url)
 
     print("\nTotal " + str(len(f1)) + " websites are processed\n")
     print(str(count) + " websites are vulnerable to clickjacking.")
