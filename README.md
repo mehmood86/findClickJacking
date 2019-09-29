@@ -1,2 +1,2 @@
 # findClickJacking
-To find wheter a given website is vulnerable to clickjacking
+To find whether a given website is vulnerable to clickjacking
