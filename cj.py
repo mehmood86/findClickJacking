@@ -1,3 +1,13 @@
+#!/usr/bin/env python
+#title           :cj.py
+#description     :The program will simply check for X-Frame-Options in the header of a website for a possible click jacking vulnerabilities.
+#author          :Mehmood Ghaffar
+#date            :2019-10-30
+#version         :1.0
+#usage           :python cj.py
+#notes           :python test.py ("check all header information for a particular website| url variable need to changed accordingly")
+#python_version  :3.6
+
 import sys
 import urllib.request
 
